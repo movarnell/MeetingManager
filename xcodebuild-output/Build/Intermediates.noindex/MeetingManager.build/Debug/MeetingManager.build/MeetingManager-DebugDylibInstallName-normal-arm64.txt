@@ -1,1 +1,0 @@
-@rpath/MeetingManager.debug.dylib
