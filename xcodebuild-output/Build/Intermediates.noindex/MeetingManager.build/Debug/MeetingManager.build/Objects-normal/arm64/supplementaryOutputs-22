@@ -1,0 +1,23 @@
+{
+  "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Utilities/AudioFormatConverter.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/AudioFormatConverter.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/AudioFormatConverter.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/AudioFormatConverter.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/AudioFormatConverter.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/AudioFormatConverter.swiftdeps"
+  },
+  "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Utilities/Constants.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/Constants.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/Constants.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/Constants.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/Constants.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/Constants.swiftdeps"
+  },
+  "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Utilities/DateFormatters.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/DateFormatters.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/DateFormatters.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/DateFormatters.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/DateFormatters.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/DateFormatters.swiftdeps"
+  }
+}

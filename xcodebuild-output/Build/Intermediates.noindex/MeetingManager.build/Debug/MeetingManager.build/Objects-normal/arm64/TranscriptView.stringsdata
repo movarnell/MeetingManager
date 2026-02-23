@@ -1,0 +1,192 @@
+{
+  "source": "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Views/Transcript/TranscriptView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Export Error",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "Search transcript...",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Markdown (.md)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "Plain Text (.txt)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "PDF (.pdf)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "Export",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generate Meeting Notes",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 292
+        }
+      },
+      {
+        "comment": "",
+        "key": "Send this transcript to Ollama for AI-powered summary, key points, and action items",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 295
+        }
+      },
+      {
+        "comment": "",
+        "key": "Go to Notes",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 305
+        }
+      },
+      {
+        "comment": "",
+        "key": "Determining Best Model",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 343
+        }
+      },
+      {
+        "comment": "",
+        "key": "Checking your hardware for the optimal Whisper model...",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 346
+        }
+      },
+      {
+        "comment": "",
+        "key": "Downloading Whisper Model",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 355
+        }
+      },
+      {
+        "comment": "",
+        "key": "This is a one-time download. The model will be cached for future use.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 381
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading Model",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 388
+        }
+      },
+      {
+        "comment": "",
+        "key": "Preparing the model for transcription...",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 391
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%% complete",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 375
+        }
+      },
+      {
+        "comment": "",
+        "key": "Transcribing Audio",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 415
+        }
+      },
+      {
+        "comment": "",
+        "key": "This may take a few minutes for long recordings...",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 421
+        }
+      },
+      {
+        "comment": "",
+        "key": "Transcription Not Generated",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 445
+        }
+      },
+      {
+        "comment": "",
+        "key": "Use WhisperKit to transcribe your meeting recording locally",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 449
+        }
+      },
+      {
+        "comment": "",
+        "key": "Transcribe Recording",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 465
+        }
+      }
+    ]
+  },
+  "version": 1
+}

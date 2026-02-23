@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54157F81D28E519B9F08F5B /* MeetingManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64789629E22ED4F2939BC365 /* MeetingManagerApp.swift */; };
+		0E7605175DB6A1060D340CC3 /* AVAudioPCMBuffer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B481EE97031EC6D0D33D7C /* AVAudioPCMBuffer+Extensions.swift */; };
+		3194C5C1325E081DA5E4DAB7 /* CMSampleBuffer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A30CD963B0D3A9D71ACD4 /* CMSampleBuffer+Extensions.swift */; };
+		52EF0003EDF69DED849F8CA4 /* Data+WAVHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ACF38D7F5E8DEBC66239F8 /* Data+WAVHeader.swift */; };
+		2BB86CC92DC5311DAF700F45 /* AudioSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DE5C5BF5C3ABCFBAEAFB55 /* AudioSource.swift */; };
+		C7BE845F3C9B8B83474F5110 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165F97CCBB8796EBF556F2AF /* Meeting.swift */; };
+		E6A32EF3117884F77D6FB1FD /* MeetingNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF49C6AE5B0D03B13659531E /* MeetingNotes.swift */; };
+		E0842A18FC282444AE02BDE2 /* OllamaTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6582B3191F0C6CAE02F48 /* OllamaTypes.swift */; };
+		EDDD8503462B0885FCF9DE23 /* RecordingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7D1715C30015A6E6E63FF /* RecordingState.swift */; };
+		064E7C6B4770765BA9CE8E9D /* Transcript.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB03C36692053972BFEDF4A8 /* Transcript.swift */; };
+		FDACAC90D48C592A5CDA36D9 /* AudioMixerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B3294B5E6D84F0997A8D06 /* AudioMixerService.swift */; };
+		FBE67BB4CDF25DCBEADB7CF8 /* AudioRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383AFD1168633908A9DA695 /* AudioRecordingService.swift */; };
+		A6B613D155692E985A52B39D /* MicrophoneCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738D90701BA4D28E2A76BD1 /* MicrophoneCaptureService.swift */; };
+		88613F91E6B7A8125A65834E /* OllamaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC0B0204775218BF0E288E2 /* OllamaService.swift */; };
+		0A1DBC8D3DB1BBA16DDB4AC2 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D84FE01415B6468FACAD9 /* StorageService.swift */; };
+		0157DD2186F95C06CF3563FE /* SystemAudioCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EABB73F9ABACA887BF160E /* SystemAudioCaptureService.swift */; };
+		CBC53F6F80C59C9142C61467 /* TranscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717739676FEAF275EB3C252E /* TranscriptionService.swift */; };
+		5C414B5DBAE1A66735657056 /* AudioFormatConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A1AF586AFD2FB3194CE886 /* AudioFormatConverter.swift */; };
+		8E2215073F16B05112BA64C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D475BBCDD82D4ED54E3A46D5 /* Constants.swift */; };
+		9A7FFC08AD73D6337A7218A0 /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0183FA21B10974AA28BF3B /* DateFormatters.swift */; };
+		A799A925AFE4E4D4D734D4B5 /* WAVFileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6707918315C282CE0C528 /* WAVFileWriter.swift */; };
+		E392434940E25A91D2D8F1D1 /* MeetingNotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD19B5064981B62983EEB8C /* MeetingNotesViewModel.swift */; };
+		F384CFC7ADACFFDAC8B94068 /* MeetingsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBB83F95F5307E47C4CC78 /* MeetingsListViewModel.swift */; };
+		2AE03B1B51E88511FA1D7A87 /* RecordingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162BBADF6484773E734280BE /* RecordingViewModel.swift */; };
+		0320CB8A93AA4068A64CF9F1 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3C855EF48E3C03748D0C6 /* SettingsViewModel.swift */; };
+		43FFA88652AF32E91504B388 /* TranscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6234B24B0F67E3F508B8D6A /* TranscriptionViewModel.swift */; };
+		2560348362CD3748460CDFE2 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B65A172CC0074FCA26BF17 /* EmptyStateView.swift */; };
+		17FF646E72D42034BAE3950C /* StatusIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51881EC9C837364E9B7908AF /* StatusIndicatorView.swift */; };
+		6D7935FCB0B9BF57B259E4AA /* TagEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA295F275FF33760E3DBD8 /* TagEditorView.swift */; };
+		025F637B0536F61CA0B30127 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A7FE8295014180D73DD09 /* WaveformView.swift */; };
+		F6847117630B328F6B41FE5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AECBD5BF990493516CA930 /* ContentView.swift */; };
+		610EF082CB71B18A9E0C48B6 /* MeetingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADA9E2D47554ED88A287FD /* MeetingDetailView.swift */; };
+		13A7D94ED451D3874AE87374 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CDC9A2356111EEA6661217 /* MenuBarView.swift */; };
+		6883795A189B329997683FE8 /* ExportOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01473ACF044033C5ABDE8F /* ExportOptionsView.swift */; };
+		9143639C6CA4DF0F26E7C121 /* MarkdownRendererView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FC4A5B6D5A411E28374D71 /* MarkdownRendererView.swift */; };
+		8875A6919CEF7B50AA1DE8AA /* MeetingNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68955CA908B2EF669FE031FF /* MeetingNotesView.swift */; };
+		ED3858BB61BE3E0ED3DB3B05 /* AudioLevelMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B23557FB83EA7CB8F08E9 /* AudioLevelMeterView.swift */; };
+		D3BF8EE88BBAB31335B80E4F /* AudioSourceToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA018A605AA4EE22DB81A3F /* AudioSourceToggleView.swift */; };
+		EA2AAD921EEC75BF0D1A46BB /* RecordButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71024438B2458C5D01AB4AFD /* RecordButtonView.swift */; };
+		B05BB51E44B816D77F8F409F /* RecordingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9ED066099B42C2CCEA0CEE /* RecordingTimerView.swift */; };
+		F635B456DE774760A7D7E0DA /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4754138FA7878C6E74B522B /* RecordingView.swift */; };
+		B60CF768C28EA3765BCF14C4 /* OllamaSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE3F4A578DDC987CEA87D39 /* OllamaSettingsView.swift */; };
+		2A10E479E33824105328CCBB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12937E78F0740BB3D097E336 /* SettingsView.swift */; };
+		1579A9A31F235FB34BC970FE /* StorageSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E407F0A8C59D29FF2EA6EA /* StorageSettingsView.swift */; };
+		7152D591557A2489D09DFAB3 /* WhisperSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29319BAF5C348FC5C0687785 /* WhisperSettingsView.swift */; };
+		CB770CCBE7BBEC744AB5B46B /* MeetingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99FED8D51BB87DCC4E7BBC0 /* MeetingRowView.swift */; };
+		346452DA179C9FA4AAC7E39A /* MeetingsSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB166227B1FD5652E6E0D7 /* MeetingsSidebarView.swift */; };
+		B45BBBA1EC0274DF1BA5C202 /* TranscriptSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B633A9D11FFF04F6AC0764B /* TranscriptSegmentView.swift */; };
+		65617EE282B82A6357A15F0C /* TranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375BF17CF2D1A5512A62B5F /* TranscriptView.swift */; };
+		E40890BB4956E016ACD04941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48900BD30EAC778AB6859397 /* Assets.xcassets */; };
+		E40F8CCE14F65115A271B595 /* WhisperKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE03E3777C84AA1AF66FB1A8 /* WhisperKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		852A33EADD1280A73431240B /* MeetingManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64789629E22ED4F2939BC365 /* MeetingManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingManagerApp.swift; sourceTree = "<group>"; };
+		19B481EE97031EC6D0D33D7C /* AVAudioPCMBuffer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVAudioPCMBuffer+Extensions.swift"; sourceTree = "<group>"; };
+		EF2A30CD963B0D3A9D71ACD4 /* CMSampleBuffer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMSampleBuffer+Extensions.swift"; sourceTree = "<group>"; };
+		38ACF38D7F5E8DEBC66239F8 /* Data+WAVHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+WAVHeader.swift"; sourceTree = "<group>"; };
+		58DE5C5BF5C3ABCFBAEAFB55 /* AudioSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSource.swift; sourceTree = "<group>"; };
+		165F97CCBB8796EBF556F2AF /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		FF49C6AE5B0D03B13659531E /* MeetingNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingNotes.swift; sourceTree = "<group>"; };
+		22D6582B3191F0C6CAE02F48 /* OllamaTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaTypes.swift; sourceTree = "<group>"; };
+		F1F7D1715C30015A6E6E63FF /* RecordingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingState.swift; sourceTree = "<group>"; };
+		AB03C36692053972BFEDF4A8 /* Transcript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transcript.swift; sourceTree = "<group>"; };
+		A9B3294B5E6D84F0997A8D06 /* AudioMixerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMixerService.swift; sourceTree = "<group>"; };
+		8383AFD1168633908A9DA695 /* AudioRecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordingService.swift; sourceTree = "<group>"; };
+		6738D90701BA4D28E2A76BD1 /* MicrophoneCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneCaptureService.swift; sourceTree = "<group>"; };
+		7CC0B0204775218BF0E288E2 /* OllamaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaService.swift; sourceTree = "<group>"; };
+		1D9D84FE01415B6468FACAD9 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		29EABB73F9ABACA887BF160E /* SystemAudioCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemAudioCaptureService.swift; sourceTree = "<group>"; };
+		717739676FEAF275EB3C252E /* TranscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionService.swift; sourceTree = "<group>"; };
+		F5A1AF586AFD2FB3194CE886 /* AudioFormatConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFormatConverter.swift; sourceTree = "<group>"; };
+		D475BBCDD82D4ED54E3A46D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9A0183FA21B10974AA28BF3B /* DateFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
+		C0B6707918315C282CE0C528 /* WAVFileWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVFileWriter.swift; sourceTree = "<group>"; };
+		5AD19B5064981B62983EEB8C /* MeetingNotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingNotesViewModel.swift; sourceTree = "<group>"; };
+		DCBBB83F95F5307E47C4CC78 /* MeetingsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsListViewModel.swift; sourceTree = "<group>"; };
+		162BBADF6484773E734280BE /* RecordingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewModel.swift; sourceTree = "<group>"; };
+		29D3C855EF48E3C03748D0C6 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		F6234B24B0F67E3F508B8D6A /* TranscriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionViewModel.swift; sourceTree = "<group>"; };
+		B8B65A172CC0074FCA26BF17 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		51881EC9C837364E9B7908AF /* StatusIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicatorView.swift; sourceTree = "<group>"; };
+		F5BA295F275FF33760E3DBD8 /* TagEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagEditorView.swift; sourceTree = "<group>"; };
+		915A7FE8295014180D73DD09 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
+		69AECBD5BF990493516CA930 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0ADA9E2D47554ED88A287FD /* MeetingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingDetailView.swift; sourceTree = "<group>"; };
+		40CDC9A2356111EEA6661217 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		1E01473ACF044033C5ABDE8F /* ExportOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportOptionsView.swift; sourceTree = "<group>"; };
+		C5FC4A5B6D5A411E28374D71 /* MarkdownRendererView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownRendererView.swift; sourceTree = "<group>"; };
+		68955CA908B2EF669FE031FF /* MeetingNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingNotesView.swift; sourceTree = "<group>"; };
+		EA6B23557FB83EA7CB8F08E9 /* AudioLevelMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioLevelMeterView.swift; sourceTree = "<group>"; };
+		DDA018A605AA4EE22DB81A3F /* AudioSourceToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSourceToggleView.swift; sourceTree = "<group>"; };
+		71024438B2458C5D01AB4AFD /* RecordButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButtonView.swift; sourceTree = "<group>"; };
+		0B9ED066099B42C2CCEA0CEE /* RecordingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingTimerView.swift; sourceTree = "<group>"; };
+		C4754138FA7878C6E74B522B /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		EBE3F4A578DDC987CEA87D39 /* OllamaSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaSettingsView.swift; sourceTree = "<group>"; };
+		12937E78F0740BB3D097E336 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A3E407F0A8C59D29FF2EA6EA /* StorageSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageSettingsView.swift; sourceTree = "<group>"; };
+		29319BAF5C348FC5C0687785 /* WhisperSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperSettingsView.swift; sourceTree = "<group>"; };
+		D99FED8D51BB87DCC4E7BBC0 /* MeetingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRowView.swift; sourceTree = "<group>"; };
+		30CB166227B1FD5652E6E0D7 /* MeetingsSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsSidebarView.swift; sourceTree = "<group>"; };
+		2B633A9D11FFF04F6AC0764B /* TranscriptSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptSegmentView.swift; sourceTree = "<group>"; };
+		A375BF17CF2D1A5512A62B5F /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
+		48900BD30EAC778AB6859397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E3453BF2DB2A80CD25F3034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D986CB98C9E705608DA9668 /* MeetingManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeetingManager.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E07120471D7CAA46DCD94528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40F8CCE14F65115A271B595 /* WhisperKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D3FC6DB5D0827F168A73277 = {
+			isa = PBXGroup;
+			children = (
+				15C76D2DB355BF24517E6585 /* MeetingManager */,
+				1BADDC1D73C1A20F347483E1 /* Products */,
+				108A1140BF71AD8362C53038 /* Packages */,
+			);
+			sourceTree = "<group>";
+		};
+
+		1BADDC1D73C1A20F347483E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				852A33EADD1280A73431240B /* MeetingManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+
+		108A1140BF71AD8362C53038 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+
+		15C76D2DB355BF24517E6585 /* MeetingManager */ = {
+			isa = PBXGroup;
+			children = (
+				64789629E22ED4F2939BC365 /* MeetingManagerApp.swift */,
+				3136E6F1DF677A1E5E9176FE /* Extensions */,
+				9CF43B31E8845D861542A38E /* Models */,
+				564EAF51B7DD4639ADD9B985 /* Services */,
+				94EC979C78A1C9E483FAC308 /* Utilities */,
+				420CEB417186B52ECF642348 /* ViewModels */,
+				C454586A1F4E28C340BDC1AD /* Views */,
+				48900BD30EAC778AB6859397 /* Assets.xcassets */,
+				3E3453BF2DB2A80CD25F3034 /* Info.plist */,
+				1D986CB98C9E705608DA9668 /* MeetingManager.entitlements */,
+			);
+			path = MeetingManager;
+			sourceTree = "<group>";
+		};
+
+		3136E6F1DF677A1E5E9176FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19B481EE97031EC6D0D33D7C /* AVAudioPCMBuffer+Extensions.swift */,
+				EF2A30CD963B0D3A9D71ACD4 /* CMSampleBuffer+Extensions.swift */,
+				38ACF38D7F5E8DEBC66239F8 /* Data+WAVHeader.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+
+		9CF43B31E8845D861542A38E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58DE5C5BF5C3ABCFBAEAFB55 /* AudioSource.swift */,
+				165F97CCBB8796EBF556F2AF /* Meeting.swift */,
+				FF49C6AE5B0D03B13659531E /* MeetingNotes.swift */,
+				22D6582B3191F0C6CAE02F48 /* OllamaTypes.swift */,
+				F1F7D1715C30015A6E6E63FF /* RecordingState.swift */,
+				AB03C36692053972BFEDF4A8 /* Transcript.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+
+		564EAF51B7DD4639ADD9B985 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A9B3294B5E6D84F0997A8D06 /* AudioMixerService.swift */,
+				8383AFD1168633908A9DA695 /* AudioRecordingService.swift */,
+				6738D90701BA4D28E2A76BD1 /* MicrophoneCaptureService.swift */,
+				7CC0B0204775218BF0E288E2 /* OllamaService.swift */,
+				1D9D84FE01415B6468FACAD9 /* StorageService.swift */,
+				29EABB73F9ABACA887BF160E /* SystemAudioCaptureService.swift */,
+				717739676FEAF275EB3C252E /* TranscriptionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+
+		94EC979C78A1C9E483FAC308 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F5A1AF586AFD2FB3194CE886 /* AudioFormatConverter.swift */,
+				D475BBCDD82D4ED54E3A46D5 /* Constants.swift */,
+				9A0183FA21B10974AA28BF3B /* DateFormatters.swift */,
+				C0B6707918315C282CE0C528 /* WAVFileWriter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+
+		420CEB417186B52ECF642348 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5AD19B5064981B62983EEB8C /* MeetingNotesViewModel.swift */,
+				DCBBB83F95F5307E47C4CC78 /* MeetingsListViewModel.swift */,
+				162BBADF6484773E734280BE /* RecordingViewModel.swift */,
+				29D3C855EF48E3C03748D0C6 /* SettingsViewModel.swift */,
+				F6234B24B0F67E3F508B8D6A /* TranscriptionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+
+		C454586A1F4E28C340BDC1AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69AECBD5BF990493516CA930 /* ContentView.swift */,
+				C0ADA9E2D47554ED88A287FD /* MeetingDetailView.swift */,
+				4724C3FAA6DC593B05F661BF /* Components */,
+				0757391C49AC6FE33FFE5834 /* MenuBar */,
+				605F6579A8BFA406335DDE84 /* Notes */,
+				147CCD0BAB103DBE6B8FEE25 /* Recording */,
+				F463FD195E910129A74FD8C7 /* Settings */,
+				4886C5FD5EFCC6AA3931DA4C /* Sidebar */,
+				F7DCCDA02E53C78788B642EE /* Transcript */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+
+		4724C3FAA6DC593B05F661BF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B8B65A172CC0074FCA26BF17 /* EmptyStateView.swift */,
+				51881EC9C837364E9B7908AF /* StatusIndicatorView.swift */,
+				F5BA295F275FF33760E3DBD8 /* TagEditorView.swift */,
+				915A7FE8295014180D73DD09 /* WaveformView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+
+		0757391C49AC6FE33FFE5834 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				40CDC9A2356111EEA6661217 /* MenuBarView.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+
+		605F6579A8BFA406335DDE84 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				1E01473ACF044033C5ABDE8F /* ExportOptionsView.swift */,
+				C5FC4A5B6D5A411E28374D71 /* MarkdownRendererView.swift */,
+				68955CA908B2EF669FE031FF /* MeetingNotesView.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+
+		147CCD0BAB103DBE6B8FEE25 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B23557FB83EA7CB8F08E9 /* AudioLevelMeterView.swift */,
+				DDA018A605AA4EE22DB81A3F /* AudioSourceToggleView.swift */,
+				71024438B2458C5D01AB4AFD /* RecordButtonView.swift */,
+				0B9ED066099B42C2CCEA0CEE /* RecordingTimerView.swift */,
+				C4754138FA7878C6E74B522B /* RecordingView.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+
+		F463FD195E910129A74FD8C7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EBE3F4A578DDC987CEA87D39 /* OllamaSettingsView.swift */,
+				12937E78F0740BB3D097E336 /* SettingsView.swift */,
+				A3E407F0A8C59D29FF2EA6EA /* StorageSettingsView.swift */,
+				29319BAF5C348FC5C0687785 /* WhisperSettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+
+		4886C5FD5EFCC6AA3931DA4C /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				D99FED8D51BB87DCC4E7BBC0 /* MeetingRowView.swift */,
+				30CB166227B1FD5652E6E0D7 /* MeetingsSidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+
+		F7DCCDA02E53C78788B642EE /* Transcript */ = {
+			isa = PBXGroup;
+			children = (
+				2B633A9D11FFF04F6AC0764B /* TranscriptSegmentView.swift */,
+				A375BF17CF2D1A5512A62B5F /* TranscriptView.swift */,
+			);
+			path = Transcript;
+			sourceTree = "<group>";
+		};
+
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA0A664AB4ED7FFF150C1C3A /* MeetingManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF116FE40D68E4ABB26094B /* Build configuration list for PBXNativeTarget "MeetingManager" */;
+			buildPhases = (
+				0998B95F2E75B94331298940 /* Sources */,
+				E07120471D7CAA46DCD94528 /* Frameworks */,
+				90D3309A3EDE29A4CEBB8E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingManager;
+			packageProductDependencies = (
+				BE03E3777C84AA1AF66FB1A8 /* WhisperKit */,
+			);
+			productName = MeetingManager;
+			productReference = 852A33EADD1280A73431240B /* MeetingManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = ADD3EDE971004D3249A2A24C /* Build configuration list for PBXProject "MeetingManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D3FC6DB5D0827F168A73277;
+			packageReferences = (
+				D393B658C461488F2A3F191D /* XCRemoteSwiftPackageReference "WhisperKit" */,
+			);
+			productRefGroup = 1BADDC1D73C1A20F347483E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA0A664AB4ED7FFF150C1C3A /* MeetingManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90D3309A3EDE29A4CEBB8E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40890BB4956E016ACD04941 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0998B95F2E75B94331298940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54157F81D28E519B9F08F5B /* MeetingManagerApp.swift in Sources */,
+				0E7605175DB6A1060D340CC3 /* AVAudioPCMBuffer+Extensions.swift in Sources */,
+				3194C5C1325E081DA5E4DAB7 /* CMSampleBuffer+Extensions.swift in Sources */,
+				52EF0003EDF69DED849F8CA4 /* Data+WAVHeader.swift in Sources */,
+				2BB86CC92DC5311DAF700F45 /* AudioSource.swift in Sources */,
+				C7BE845F3C9B8B83474F5110 /* Meeting.swift in Sources */,
+				E6A32EF3117884F77D6FB1FD /* MeetingNotes.swift in Sources */,
+				E0842A18FC282444AE02BDE2 /* OllamaTypes.swift in Sources */,
+				EDDD8503462B0885FCF9DE23 /* RecordingState.swift in Sources */,
+				064E7C6B4770765BA9CE8E9D /* Transcript.swift in Sources */,
+				FDACAC90D48C592A5CDA36D9 /* AudioMixerService.swift in Sources */,
+				FBE67BB4CDF25DCBEADB7CF8 /* AudioRecordingService.swift in Sources */,
+				A6B613D155692E985A52B39D /* MicrophoneCaptureService.swift in Sources */,
+				88613F91E6B7A8125A65834E /* OllamaService.swift in Sources */,
+				0A1DBC8D3DB1BBA16DDB4AC2 /* StorageService.swift in Sources */,
+				0157DD2186F95C06CF3563FE /* SystemAudioCaptureService.swift in Sources */,
+				CBC53F6F80C59C9142C61467 /* TranscriptionService.swift in Sources */,
+				5C414B5DBAE1A66735657056 /* AudioFormatConverter.swift in Sources */,
+				8E2215073F16B05112BA64C4 /* Constants.swift in Sources */,
+				9A7FFC08AD73D6337A7218A0 /* DateFormatters.swift in Sources */,
+				A799A925AFE4E4D4D734D4B5 /* WAVFileWriter.swift in Sources */,
+				E392434940E25A91D2D8F1D1 /* MeetingNotesViewModel.swift in Sources */,
+				F384CFC7ADACFFDAC8B94068 /* MeetingsListViewModel.swift in Sources */,
+				2AE03B1B51E88511FA1D7A87 /* RecordingViewModel.swift in Sources */,
+				0320CB8A93AA4068A64CF9F1 /* SettingsViewModel.swift in Sources */,
+				43FFA88652AF32E91504B388 /* TranscriptionViewModel.swift in Sources */,
+				2560348362CD3748460CDFE2 /* EmptyStateView.swift in Sources */,
+				17FF646E72D42034BAE3950C /* StatusIndicatorView.swift in Sources */,
+				6D7935FCB0B9BF57B259E4AA /* TagEditorView.swift in Sources */,
+				025F637B0536F61CA0B30127 /* WaveformView.swift in Sources */,
+				F6847117630B328F6B41FE5F /* ContentView.swift in Sources */,
+				610EF082CB71B18A9E0C48B6 /* MeetingDetailView.swift in Sources */,
+				13A7D94ED451D3874AE87374 /* MenuBarView.swift in Sources */,
+				6883795A189B329997683FE8 /* ExportOptionsView.swift in Sources */,
+				9143639C6CA4DF0F26E7C121 /* MarkdownRendererView.swift in Sources */,
+				8875A6919CEF7B50AA1DE8AA /* MeetingNotesView.swift in Sources */,
+				ED3858BB61BE3E0ED3DB3B05 /* AudioLevelMeterView.swift in Sources */,
+				D3BF8EE88BBAB31335B80E4F /* AudioSourceToggleView.swift in Sources */,
+				EA2AAD921EEC75BF0D1A46BB /* RecordButtonView.swift in Sources */,
+				B05BB51E44B816D77F8F409F /* RecordingTimerView.swift in Sources */,
+				F635B456DE774760A7D7E0DA /* RecordingView.swift in Sources */,
+				B60CF768C28EA3765BCF14C4 /* OllamaSettingsView.swift in Sources */,
+				2A10E479E33824105328CCBB /* SettingsView.swift in Sources */,
+				1579A9A31F235FB34BC970FE /* StorageSettingsView.swift in Sources */,
+				7152D591557A2489D09DFAB3 /* WhisperSettingsView.swift in Sources */,
+				CB770CCBE7BBEC744AB5B46B /* MeetingRowView.swift in Sources */,
+				346452DA179C9FA4AAC7E39A /* MeetingsSidebarView.swift in Sources */,
+				B45BBBA1EC0274DF1BA5C202 /* TranscriptSegmentView.swift in Sources */,
+				65617EE282B82A6357A15F0C /* TranscriptView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BA3C016E0B5B57210B31A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+
+		47D53771281D97E3FA007F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+
+		54C777A32723F76CB3420D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeetingManager/MeetingManager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MeetingManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meetingmanager.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+
+		1C4852E57A2EB7505670A025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeetingManager/MeetingManager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MeetingManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meetingmanager.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD3EDE971004D3249A2A24C /* Build configuration list for PBXProject "MeetingManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA3C016E0B5B57210B31A9D /* Debug */,
+				47D53771281D97E3FA007F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF116FE40D68E4ABB26094B /* Build configuration list for PBXNativeTarget "MeetingManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C777A32723F76CB3420D9E /* Debug */,
+				1C4852E57A2EB7505670A025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D393B658C461488F2A3F191D /* XCRemoteSwiftPackageReference "WhisperKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/argmaxinc/WhisperKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE03E3777C84AA1AF66FB1A8 /* WhisperKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D393B658C461488F2A3F191D /* XCRemoteSwiftPackageReference "WhisperKit" */;
+			productName = WhisperKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

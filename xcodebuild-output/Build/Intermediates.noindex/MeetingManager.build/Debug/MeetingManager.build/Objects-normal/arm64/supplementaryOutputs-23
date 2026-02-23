@@ -1,0 +1,23 @@
+{
+  "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Utilities/WAVFileWriter.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/WAVFileWriter.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/WAVFileWriter.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/WAVFileWriter.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/WAVFileWriter.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/WAVFileWriter.swiftdeps"
+  },
+  "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/ViewModels/MeetingNotesViewModel.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/MeetingNotesViewModel.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/MeetingNotesViewModel.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/MeetingNotesViewModel.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/MeetingNotesViewModel.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/MeetingNotesViewModel.swiftdeps"
+  },
+  "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/ViewModels/MeetingsListViewModel.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/MeetingsListViewModel.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/MeetingsListViewModel.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/MeetingsListViewModel.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/MeetingsListViewModel.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/MeetingsListViewModel.swiftdeps"
+  }
+}

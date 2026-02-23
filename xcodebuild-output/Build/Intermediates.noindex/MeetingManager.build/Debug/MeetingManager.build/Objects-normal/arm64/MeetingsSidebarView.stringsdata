@@ -1,0 +1,64 @@
+{
+  "source": "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Views/Sidebar/MeetingsSidebarView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Meetings",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "New Recording",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Search meetings...",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start a new recording to begin",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "No meetings yet",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "No matching meetings",
+        "location": {
+          "startingColumn": 70,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 82
+        }
+      }
+    ]
+  },
+  "version": 1
+}

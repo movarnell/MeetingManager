@@ -1,0 +1,48 @@
+{
+  "source": "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Views/Settings/WhisperSettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Model",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Whisper Model",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "WhisperKit runs OpenAI's Whisper model locally on your Mac using Apple's Neural Engine for fast, private transcription. The model is downloaded on first use.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Auto mode selects the best model for your Mac's capabilities.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "About WhisperKit",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 47
+        }
+      }
+    ]
+  },
+  "version": 1
+}

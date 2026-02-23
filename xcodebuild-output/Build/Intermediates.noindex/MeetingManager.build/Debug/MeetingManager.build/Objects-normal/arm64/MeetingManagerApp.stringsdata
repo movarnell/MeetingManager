@@ -1,0 +1,24 @@
+{
+  "source": "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/MeetingManagerApp.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "MeetingManager",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "New Recording",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 15
+        }
+      }
+    ]
+  },
+  "version": 1
+}

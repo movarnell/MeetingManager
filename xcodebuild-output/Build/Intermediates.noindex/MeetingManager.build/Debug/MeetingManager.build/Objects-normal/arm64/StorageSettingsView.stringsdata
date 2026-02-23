@@ -1,0 +1,72 @@
+{
+  "source": "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Views/Settings/StorageSettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Location",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 10
+        }
+      },
+      {
+        "comment": "",
+        "key": "Meetings",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Storage Used",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "~/Documents/MeetingManager/",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Storage",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Each meeting is stored in its own folder containing audio files, transcript data, and generated notes. All data stays on your Mac.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "About Storage",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 46
+        }
+      }
+    ]
+  },
+  "version": 1
+}

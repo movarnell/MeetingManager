@@ -1,0 +1,32 @@
+{
+  "source": "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Views/Recording/AudioSourceToggleView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Active",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Disabled",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 23
+        }
+      }
+    ]
+  },
+  "version": 1
+}

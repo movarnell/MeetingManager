@@ -1,0 +1,23 @@
+{
+  "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Views/Components/EmptyStateView.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/EmptyStateView.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/EmptyStateView.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/EmptyStateView.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/EmptyStateView.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/EmptyStateView.swiftdeps"
+  },
+  "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Views/Components/StatusIndicatorView.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/StatusIndicatorView.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/StatusIndicatorView.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/StatusIndicatorView.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/StatusIndicatorView.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/StatusIndicatorView.swiftdeps"
+  },
+  "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Views/Components/TagEditorView.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/TagEditorView.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/TagEditorView.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/TagEditorView.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/TagEditorView.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/MeetingManager.build/Debug/MeetingManager.build/Objects-normal/arm64/TagEditorView.swiftdeps"
+  }
+}

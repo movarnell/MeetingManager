@@ -1,0 +1,30 @@
+{
+  "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+Testing.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable+Testing.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable+Testing.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable+Testing.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable+Testing.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable+Testing.swiftdeps"
+  },
+  "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+UnsafeHandle.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable+UnsafeHandle.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable+UnsafeHandle.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable+UnsafeHandle.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable+UnsafeHandle.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable+UnsafeHandle.swiftdeps"
+  },
+  "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_HashTable.swiftdeps"
+  },
+  "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_Hashtable+Header.swift" : {
+    "const-values" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_Hashtable+Header.swiftconstvalues",
+    "dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_Hashtable+Header.d",
+    "diagnostics" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_Hashtable+Header.dia",
+    "object" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_Hashtable+Header.o",
+    "swift-dependencies" : "/Users/michaelvarnell/Desktop/MeetingManager/xcodebuild-output/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/_Hashtable+Header.swiftdeps"
+  }
+}

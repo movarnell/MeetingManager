@@ -1,0 +1,64 @@
+{
+  "source": "/Users/michaelvarnell/Desktop/MeetingManager/MeetingManager/Views/Notes/ExportOptionsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Export Error",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Markdown (.md)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Plain Text (.txt)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "PDF (.pdf)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy to Clipboard",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Export",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 49
+        }
+      }
+    ]
+  },
+  "version": 1
+}
