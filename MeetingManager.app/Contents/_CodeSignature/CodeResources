@@ -6,7 +6,23 @@
 	<dict>
 		<key>Resources/AppIcon.icns</key>
 		<data>
-		HcUH/OzgEQlwE1d8ekqZlwuv/ko=
+		FmK0CxC0f21Coe68+9yidFxSVEM=
+		</data>
+		<key>Resources/Assets.car</key>
+		<data>
+		O1YHxEhwW6b9Fy1GBWfZzW4Sa6k=
+		</data>
+		<key>Resources/swift-transformers_Hub.bundle/Contents/Info.plist</key>
+		<data>
+		oKGAhosOTGn87sUq4qZPgkdh3cs=
+		</data>
+		<key>Resources/swift-transformers_Hub.bundle/Contents/Resources/gpt2_tokenizer_config.json</key>
+		<data>
+		plr2ieF2evTyNgcYbN1vth46bv0=
+		</data>
+		<key>Resources/swift-transformers_Hub.bundle/Contents/Resources/t5_tokenizer_config.json</key>
+		<data>
+		/JfXpkgOZSfRcptPaI/tYgZB42A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,7 +31,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			08+axqJo4LEojGlMl0vo7k2Rav6iilHakyKJgMJfP4s=
+			x5l7yHSBknquIOI1hNmBok0Or/wfe1nFaYXExueNm+4=
+			</data>
+		</dict>
+		<key>Resources/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CWcHK2pLElfkUxjAa8QNSwwfcF1AxSNMIjWTDi1CcC8=
+			</data>
+		</dict>
+		<key>Resources/swift-transformers_Hub.bundle/Contents/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DWT0ne0XAPkuQgrRWrCd8RFPNIS1zMMTRf/hgmXpRXU=
+			</data>
+		</dict>
+		<key>Resources/swift-transformers_Hub.bundle/Contents/Resources/gpt2_tokenizer_config.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VR4m7GEdjQyO3D73LlGKOEGMtx9A3hNH3UhqWV4VV9c=
+			</data>
+		</dict>
+		<key>Resources/swift-transformers_Hub.bundle/Contents/Resources/t5_tokenizer_config.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4K/wsd6QceMNmmChmTA7ar6RamShmTK9HEaZInm0Gh8=
 			</data>
 		</dict>
 	</dict>
