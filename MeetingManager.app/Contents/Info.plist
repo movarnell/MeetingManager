@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>25F71</string>
+	<string>26A5388g</string>
 	<key>CFBundleExecutable</key>
 	<string>MeetingManager</string>
 	<key>CFBundleIconFile</key>
@@ -19,13 +19,13 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.5</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>8</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -39,9 +39,9 @@
 	<key>DTSDKName</key>
 	<string>macosx26.5</string>
 	<key>DTXcode</key>
-	<string>2650</string>
+	<string>2660</string>
 	<key>DTXcodeBuild</key>
-	<string>17F42</string>
+	<string>17F113</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.productivity</string>
 	<key>LSMinimumSystemVersion</key>
@@ -56,5 +56,7 @@
 	<string>NSApplication</string>
 	<key>NSScreenRecordingUsageDescription</key>
 	<string>MeetingManager needs Screen Recording access only when you choose to capture system audio during a meeting.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>MeetingManager transcribes your meeting audio privately on this Mac.</string>
 </dict>
 </plist>
